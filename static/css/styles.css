@@ -607,9 +607,3 @@ footer {
     color: var(--white);
     text-decoration: none;
 }
-
-@media (max-width: 768px) {
-    .google-map {
-        height: 350px;
-    }
-}

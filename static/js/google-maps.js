@@ -1,3 +1,10 @@
+/*
+Citations for Google Maps embed:
+https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+https://www.w3schools.com/jsref/api_web.asp
+https://www.w3schools.com/js/js_api_intro.asp
+*/
+
 function initMap() {
     const lowerStation = { lat: 40.4419, lng: -80.0227 };
     

@@ -31,9 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-/**
- * @param {Event} event 
- */
 function validateMailingListForm(event) {
     event.preventDefault();
     
@@ -79,9 +76,6 @@ function validateMailingListForm(event) {
     }
 }
 
-/**
- * @param {Event} event 
- */
 function validateBookingForm(event) {
     event.preventDefault();
     
@@ -94,10 +88,6 @@ function validateBookingForm(event) {
     console.log('Booking form submitted successfully');
 }
 
-/**
- * @param {HTMLInputElement} emailInput 
- * @returns {boolean} 
- */
 function validateEmail(emailInput) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const emailValue = emailInput.value.trim();
@@ -115,10 +105,6 @@ function validateEmail(emailInput) {
     }
 }
 
-/**
- * @param {HTMLInputElement} phoneInput 
- * @returns {boolean}
- */
 function validatePhone(phoneInput) {
     const phoneRegex = /^\d{10,15}$/;
     const phoneValue = phoneInput.value.trim().replace(/[^\d]/g, ''); 
@@ -133,10 +119,6 @@ function validatePhone(phoneInput) {
     }
 }
 
-/**
- * @param {HTMLInputElement} zipInput 
- * @returns {boolean}
- */
 function validateZip(zipInput) {
     const zipRegex = /^\d{5}$/;
     const zipValue = zipInput.value.trim();
@@ -151,11 +133,6 @@ function validateZip(zipInput) {
     }
 }
 
-/**
- * @param {HTMLInputElement} inputElement 
- * @param {string} message 
- * @param {HTMLElement} errorElement 
- */
 function showError(inputElement, message, errorElement) {
     inputElement.classList.add('error');
     
@@ -165,10 +142,6 @@ function showError(inputElement, message, errorElement) {
     }
 }
 
-/**
- * @param {HTMLInputElement} inputElement 
- * @param {HTMLElement} errorElement
- */
 function clearError(inputElement, errorElement) {
     inputElement.classList.remove('error');
     

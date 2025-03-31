@@ -18,8 +18,11 @@
                 <nav>
                     <ul>
                         <li><a href="../index.html">Home</a></li>
-                        <li><a href="visit.html">Plan Your Visit</a></li>
-                        <li><a href="contact.html" class="active">Contact</a></li>
+                        <li><a href="visit.html" class="active">Plan Your Visit</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="tours.html">Tours & Field Trips</a></li>
+                        <li><a href="shop.html">Gift Shop</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -83,10 +86,10 @@
                         
                         <div class="contact-card">
                             <h3>Connect With Us</h3>
-                            <div class="social-links">
-                                <a href="https://facebook.com" target="_blank">Facebook</a>
-                                <a href="https://instagram.com" target="_blank">Instagram</a>
-                                <a href="https://twitter.com" target="_blank">Twitter</a>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/TheDuquesneIncline" target="_blank" aria-label="Facebook">Facebook</a>
+                                <a href="https://en.wikipedia.org/wiki/Duquesne_Incline" target="_blank" aria-label="Wikipedia">Wikipedia</a>
+                                <a href="https://www.visitpittsburgh.com/directory/duquesne-incline/" target="_blank" aria-label="Visit Pittsburgh">Visit Pittsburgh</a>
                             </div>
                         </div>
                     </div>
@@ -138,94 +141,6 @@
                     <div id="form-success" class="form-success hidden">
                         <h3>Thank You for Subscribing!</h3>
                         <p>You have been successfully added to our mailing list. We look forward to keeping you updated about the Duquesne Incline.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section id="group-booking" class="section-padding">
-            <div class="container">
-                <h2 class="section-title">Group Booking Inquiry</h2>
-                <div class="content-box">
-                    <p class="booking-intro">Interested in scheduling a field trip or group tour? Fill out the form below, and our group coordinator will contact you to discuss availability and options.</p>
-                    
-                    <form id="booking-form" class="contact-form">
-                        <div class="form-group">
-                            <label for="group-name">Group/Organization Name <span class="required">*</span></label>
-                            <input type="text" id="group-name" name="group-name" required minlength="2" maxlength="100">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="contact-person">Contact Person <span class="required">*</span></label>
-                            <input type="text" id="contact-person" name="contact-person" required minlength="2" maxlength="50">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="contact-email">Email <span class="required">*</span></label>
-                            <input type="email" id="contact-email" name="contact-email" required minlength="5" maxlength="100">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="contact-phone">Phone <span class="required">*</span></label>
-                            <input type="tel" id="contact-phone" name="contact-phone" required minlength="10" maxlength="15">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="group-size">Approximate Group Size <span class="required">*</span></label>
-                            <input type="number" id="group-size" name="group-size" required min="10" max="100">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="group-type">Group Type <span class="required">*</span></label>
-                            <select id="group-type" name="group-type" required>
-                                <option value="">Please select</option>
-                                <option value="school">School Group</option>
-                                <option value="senior">Senior Group</option>
-                                <option value="tour">Tour Group</option>
-                                <option value="corporate">Corporate Group</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="preferred-date">Preferred Date <span class="required">*</span></label>
-                            <input type="date" id="preferred-date" name="preferred-date" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="preferred-time">Preferred Time <span class="required">*</span></label>
-                            <select id="preferred-time" name="preferred-time" required>
-                                <option value="">Please select</option>
-                                <option value="morning">Morning (9:00 AM - 12:00 PM)</option>
-                                <option value="afternoon">Afternoon (12:00 PM - 4:00 PM)</option>
-                                <option value="evening">Evening (4:00 PM - 8:00 PM)</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="tour-type">Tour Type <span class="required">*</span></label>
-                            <select id="tour-type" name="tour-type" required>
-                                <option value="">Please select</option>
-                                <option value="standard">Standard Tour</option>
-                                <option value="engineering">Engineering Tour</option>
-                                <option value="historical">Historical Tour</option>
-                                <option value="photography">Photography Tour</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="special-requests">Special Requests or Accommodations</label>
-                            <textarea id="special-requests" name="special-requests" rows="4" maxlength="500"></textarea>
-                        </div>
-                        
-                        <div class="form-group">
-                            <button type="submit" class="button primary">Submit Inquiry</button>
-                        </div>
-                    </form>
-                    
-                    <div id="booking-success" class="form-success hidden">
-                        <h3>Thank You for Your Inquiry!</h3>
-                        <p>We have received your group booking inquiry. A member of our team will contact you within 2 business days to discuss your request further and confirm availability.</p>
                     </div>
                 </div>
             </div>
@@ -302,9 +217,9 @@
                 <div class="footer-social">
                     <h3>Connect With Us</h3>
                     <div class="social-icons">
-                        <a href="https://facebook.com" target="_blank" aria-label="Facebook">Facebook</a>
-                        <a href="https://instagram.com" target="_blank" aria-label="Instagram">Instagram</a>
-                        <a href="https://twitter.com" target="_blank" aria-label="Twitter">Twitter</a>
+                        <a href="https://www.facebook.com/TheDuquesneIncline" target="_blank" aria-label="Facebook">Facebook</a>
+                        <a href="https://en.wikipedia.org/wiki/Duquesne_Incline" target="_blank" aria-label="Wikipedia">Wikipedia</a>
+                        <a href="https://www.visitpittsburgh.com/directory/duquesne-incline/" target="_blank" aria-label="Visit Pittsburgh">Visit Pittsburgh</a>
                     </div>
                 </div>
             </div>
@@ -314,7 +229,6 @@
             </div>
         </div>
     </footer>
-    
     <script src="../static/js/main.js"></script>
     <script src="../static/js/form-validation.js"></script>
     <script src="../static/js/google-maps.js"></script>
